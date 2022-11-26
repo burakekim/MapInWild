@@ -107,7 +107,6 @@ class MIW(pl.LightningModule):
 
 
     def shared_epoch_end(self, outputs, stage):
-
         # aggregate step metics
         tp = torch.cat([x["tp"] for x in outputs])
         fp = torch.cat([x["fp"] for x in outputs])
@@ -195,17 +194,13 @@ class MIW(pl.LightningModule):
         )
 
     def configure_optimizers(self):
-        print("self.learning_rate",self.learning_rate)
         opt = torch.optim.Adam(self.model.parameters(), lr=self.learning_rate)
         sch = torch.optim.lr_scheduler.CosineAnnealingLR(opt, T_max=10)#
         return [opt], [sch]
 
 
     def _prepare_model(self):
-        print("self.backbone",self.backbone)
-        print("self.bands",self.bands)
-        print("len_numbands",len(self.bands))
-
+        # Form the network
         unet_model = smp.Unet(
             encoder_name=self.backbone,
             encoder_weights=self.weights,
