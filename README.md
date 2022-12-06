@@ -21,7 +21,8 @@ Batch visalualizations from MapInWild dataset.
 
 Citation
 ---------------------
-> **Note**
+```
+
 @misc{https://doi.org/10.48550/arxiv.2212.02265,
   doi = {10.48550/ARXIV.2212.02265},
   
@@ -39,3 +40,4 @@ Citation
   
   copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
 }
+```
