@@ -12,7 +12,7 @@ A sample from MapInWild dataset is shown below. The first row: four-season Senti
 
 The files are named after the WDPA area they contain. For example, the filename of the sample above (555556115) can be tracked back to the WDPA database: https://www.protectedplanet.net/555556115.
 
-Batch visalualizations from MapInWild dataset.
+Batch visalualizations from MapInWild dataset:
 
 ![alt text](readme_aux/batch_grid_1.png)
 ![alt text](readme_aux/batch_grid_2.png)
