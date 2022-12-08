@@ -5,18 +5,19 @@ MapInWild dataset is available [here](https://dataverse.harvard.edu/dataverse/ma
 
 See the folders _segmentation_ and _sensitivity_ for the _SEMANTIC SEGMENTATION_ and the _SCENE CLASSIFICATION AND SENSITIVITY ANALYSIS_ experiments, respectively. 
 
-
 A sample from MapInWild dataset is shown below. The first row: four-season Sentinel-2 patches, second row: Sentinel-1 image, ESA WorldCover map, VIIRS Nighttime Day/Night band, and World Database of Protected Areas (WDPA) annotation.
 
 ![alt text](readme_aux/555556115_.png)
 
-The files are named after the WDPA area they contain. For example, the filename of the sample above (555556115) can be tracked back to the WDPA database: https://www.protectedplanet.net/555556115.
+The files in the dataset are named after the ID of the protected area they contain. 
+- For example, the filename of the sample above (555556115) can be easily traced back to the WDPA database: https://www.protectedplanet.net/555556115.
 
 Batch visalualizations from MapInWild dataset:
 
+- 256 x 256 patches
 ![alt text](readme_aux/batch_grid_1.png)
+- 1920 x 1920 full-size patches 
 ![alt text](readme_aux/batch_grid_2.png)
-
 
 
 Citation
