@@ -23,22 +23,14 @@ Batch visalualizations from MapInWild dataset:
 Citation
 ---------------------
 ```
+@ARTICLE{10089830,
+  author={Ekim, Burak and Stomberg, Timo T. and Roscher, Ribana and Schmitt, Michael},
+  journal={IEEE Geoscience and Remote Sensing Magazine}, 
+  title={MapInWild: A remote sensing dataset to address the question of what makes nature wild [Software and Data Sets]}, 
+  year={2023},
+  volume={11},
+  number={1},
+  pages={103-114},
+  doi={10.1109/MGRS.2022.3226525}}
 
-@misc{https://doi.org/10.48550/arxiv.2212.02265,
-  doi = {10.48550/ARXIV.2212.02265},
-  
-  url = {https://arxiv.org/abs/2212.02265},
-  
-  author = {Ekim, Burak and Stomberg, Timo T. and Roscher, Ribana and Schmitt, Michael},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {MapInWild: A Remote Sensing Dataset to Address the Question What Makes Nature Wild},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
-}
 ```
