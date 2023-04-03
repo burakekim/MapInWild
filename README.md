@@ -1,5 +1,5 @@
 # MapInWild
-This repository contains the code for the paper "[MapInWild: A Remote Sensing Dataset to Answer the Question What Makes Nature Wild](https://arxiv.org/abs/2212.02265)". 
+This repository contains the code for the paper "[MapInWild: A Remote Sensing Dataset to Answer the Question What Makes Nature Wild](https://ieeexplore.ieee.org/document/10089830)". 
 
 MapInWild dataset is available [here](https://dataverse.harvard.edu/dataverse/mapinwild). The [Python API](https://pydataverse.readthedocs.io/en/latest/user/basic-usage.html#download-and-save-a-dataset-to-disk) of the Harvard Dataverse can be used for [bulk actions](https://guides.dataverse.org/en/5.10.1/api/dataaccess.html). 
 
